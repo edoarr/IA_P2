@@ -1,22 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Voraz;
-
 import java.util.Scanner;
-
-/**
- *
- * @author invitado
+/*
+ * lunes.12.febrero.2018
+ * Arroyo Cabañas José Edoardo 2153044503
+ * Soriano Germán
+ * Caballo Dorado de ajedrez
  */
 public class Principal {
     
-    /**
-     *
-     * @param args
-     */
     public static void main(String[] args){
         int xIni, yIni;
         int xFin, yFin;
@@ -32,17 +24,35 @@ public class Principal {
         
         
         System.out.print("\nIndique las coordenadas de la posisción inicial del caballo: ");
+        System.out.print("\nx: ");
         xIni = leerXI.nextInt();
+        System.out.print("y: ");
         yIni = leerYI.nextInt();
+        
         System.out.print("\nIndique las coordenadas de la posisción final del caballo: ");
+        System.out.print("\nx: ");
         xFin = leerXF.nextInt();
+        System.out.print("y: ");
         yFin = leerYF.nextInt();
         
         estadoInicial = new Estado(xIni, yIni);
         estadoFinal = new Estado(xFin, yFin);
         
+        
 
 
         
     }//fin de main
+    
+    /**
+     *
+     * @param estadoInicial
+     * @param estadoFinal
+     */
+    public void primeroAmplitud(Estado estadoInicial, Estado estadoFinal){
+        
+    }
+    
+    
+    
 }//fin de la clase principal
